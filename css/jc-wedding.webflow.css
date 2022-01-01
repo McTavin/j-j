@@ -3086,6 +3086,10 @@ a {
   z-index: 1;
 }
 
+.ms-chat-frame.ms-chat-home {
+  display: none;
+}
+
 .ms-chat-channel-wrap {
   margin-top: -25px;
   padding-right: 12px;
@@ -3098,6 +3102,7 @@ a {
   top: 0%;
   right: 0%;
   bottom: auto;
+  display: none;
   height: 190px;
   background-color: #e9b29d;
 }
